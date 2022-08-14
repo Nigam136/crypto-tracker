@@ -37,7 +37,7 @@ const Carousel = ({ currency, symbol }) => {
   console.log(trending);
   useEffect(() => {
     fetchTrendingCoins();
-  }, [currency, fetchTrendingCoins]);
+  }, [currency]);
 
   const responsive = {
     0: {
